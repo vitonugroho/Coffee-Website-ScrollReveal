@@ -34,6 +34,10 @@
   --z-fixed: 100;
 }
 
+img {
+  width: 3.6rem;
+}
+
 /* Base */
 * {
   box-sizing: border-box;
@@ -60,10 +64,6 @@ ul {
 a {
   text-decoration: none;
   color: var(--white-color);
-}
-
-img {
-  max-width: 100%;
 }
 
 /* Reusable CSS Classes */
@@ -866,10 +866,6 @@ img {
   .navbar-box {
     height: calc(var(--header-height) + 2rem);
     justify-content: space-between;
-  }
-
-  .nav-logo img {
-    width: 75px;
   }
 
   .nav-menu {
