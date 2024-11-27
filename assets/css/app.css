@@ -64,7 +64,6 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
 }
 
 /* Reusable CSS Classes */
@@ -136,19 +135,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.nav-logo {
-  color: var(--white-color);
-  display: flex;
-  align-items: center;
-  column-gap: 0.5rem;
-  font-size: var(--h3-font-size);
-  font-family: var(--second-font);
-}
-
-.nav-logo img {
-  width: 28px;
 }
 
 /* End of Navbar */
@@ -883,7 +869,7 @@ img {
   }
 
   .nav-logo img {
-    width: 32px;
+    width: 75px;
   }
 
   .nav-menu {
@@ -936,7 +922,7 @@ img {
   }
 
   .home-title img {
-    width: 7rem;
+    width: 6rem;
   }
 
   .home-img {
